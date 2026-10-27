@@ -1,0 +1,29 @@
+# Secrets et paramètres locaux
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Fichiers temporaires / sauvegardes
+*.bak
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Environnements Python et cache
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Exports locaux volumineux / sauvegardes PostgreSQL
+*.dump
+*.backup
+*.tar
+
+# Power BI local settings and cache
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
